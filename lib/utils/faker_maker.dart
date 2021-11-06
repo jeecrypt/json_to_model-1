@@ -35,7 +35,7 @@ class FakerMaker {
     } else if (type.startsWith('Map')) {
       return '{}';
     }
-
+    return "";
     throw 'Cannot determine faker for type `$type`';
   }
 
